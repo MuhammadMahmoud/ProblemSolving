@@ -11,7 +11,7 @@
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+//	cout << "!!!Hello World!!!" << endl;
 	int res[Num][Num]={{}};
 	int arr[Num][Num]={ { 1, 0, 0, 0 },
             { 1, 1, 0, 1 },

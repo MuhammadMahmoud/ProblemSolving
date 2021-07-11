@@ -1,5 +1,5 @@
 /*
- * greedy.cpp
+ * greedyBegin.cpp
  *
  *  Created on: Jul 11, 2021
  *      Author: Dell

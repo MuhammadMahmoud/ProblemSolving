@@ -1,8 +1,11 @@
 #define Num 4
+#define StartIndex 0
+#define EndIndex 1
+#define MaxSum 2
 bool mazeRat(int maze[Num][Num],int x,int y,int sol[Num][Num]);
 bool isSafe(int maze[Num][Num],int x,int y);
 void print_2d_Arr(int arr[Num][Num]);
-int MaxSeqSum(int* arr,int size);
+int* MaxSeqSum(int* arr,int size);
 void printArr(int* arr,int size);
 //	int res[Num][Num]={{}};
 //	int arr[Num][Num]={ { 1, 0, 0, 0 },

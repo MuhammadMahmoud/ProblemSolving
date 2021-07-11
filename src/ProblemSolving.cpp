@@ -11,15 +11,7 @@
 using namespace std;
 
 int main() {
-//	cout << "!!!Hello World!!!" << endl;
-	int res[Num][Num]={{}};
-	int arr[Num][Num]={ { 1, 0, 0, 0 },
-            { 1, 1, 0, 1 },
-            { 0, 1, 0, 0 },
-            { 1, 1, 1, 1 } };
-
-	cout << "Does the rat has an escape"<<endl;
-	mazeRat(arr, 0, 0, res) ? cout<<"yes\n" : cout<<"no\n";
-	print_2d_Arr(res);
+	int arr[10]={31,-41,59,26,-53,58,97,-93,-23,84};
+	cout<<MaxSeqSum(arr, 10)<<endl;
 	return 0;
 }

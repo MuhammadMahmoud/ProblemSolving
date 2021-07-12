@@ -8,11 +8,14 @@
 
 #include <iostream>
 #include "../header/header.h"
+#include <string>
 using namespace std;
 
 int main() {
 
-	cout<<"the fib of 9 is : "<<FibDP(9)<<endl;
+	//cout<<"the fib of 9 is : "<<FibDP(9)<<endl;
+	string res=lcs_seq("ABCB", "BDCAB");
+	cout<<res<<endl;
 
 	return 0;
 }

@@ -28,3 +28,6 @@ string lcs_seq(string x,string y);
 //	cout<< "The Max sequence is : "<<res[MaxSum]<<endl<<
 //			" The Start index is : "<<res[StartIndex]<<endl<<
 //			"The End index is : "<<res[EndIndex]<<endl;
+/**************Another main*******************/
+//cout<<"the fib of 9 is : "<<FibDP(9)<<endl;
+//	string res=lcs_seq("ABCB", "BDCAB");

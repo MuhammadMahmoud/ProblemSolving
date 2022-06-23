@@ -18,20 +18,7 @@ using namespace std;
 int main() {
 
 
-	int row,col,num,queries;
-	cin>>row>>queries;
-	vector<vector<unsigned int> > arr(row);
-	for(int i=0;i<row;i++){
-		cin>>col;
-		for(int j=0;j<col;j++){
-			cin>>num;
-			arr[i].push_back(num);
-		}
-	}
-	for(int i=0;i<queries;i++){
-		cin>>num;
-		cin>>col;
-		cout<<arr[num][col]<<endl;
-	}
+
+
 	return 0;
 }

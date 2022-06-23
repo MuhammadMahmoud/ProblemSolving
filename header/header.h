@@ -1,4 +1,5 @@
 #include <string>
+#include <vector>
 using namespace std;
 #define Num 4
 #define StartIndex 0
@@ -13,6 +14,9 @@ int* MaxSeqSum(int* arr,int size);
 void printArr(int* arr,int size);
 int FibDP(int num);
 string lcs_seq(string x,string y);
+vector<int> twoSum(vector<int>& nums, int target);
+vector<int> runningSum(vector<int>& nums);
+bool isSubsequence(string s, string t);
 //	int res[Num][Num]={{}};
 //	int arr[Num][Num]={ { 1, 0, 0, 0 },
 //            { 1, 1, 0, 1 },
@@ -31,3 +35,19 @@ string lcs_seq(string x,string y);
 /**************Another main*******************/
 //cout<<"the fib of 9 is : "<<FibDP(9)<<endl;
 //	string res=lcs_seq("ABCB", "BDCAB");
+/************Another main********************/
+//	int row,col,num,queries;
+//	cin>>row>>queries;
+//	vector<vector<unsigned int> > arr(row);
+//	for(int i=0;i<row;i++){
+//		cin>>col;
+//		for(int j=0;j<col;j++){
+//			cin>>num;
+//			arr[i].push_back(num);
+//		}
+//	}
+//	for(int i=0;i<queries;i++){
+//		cin>>num;
+//		cin>>col;
+//		cout<<arr[num][col]<<endl;
+//	}
